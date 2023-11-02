@@ -1,0 +1,42 @@
+#image{
+    max-width:100%;
+    height:auto;
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+  }
+  
+  h1, p{
+    text-align:center;
+    font-family:sans-serif;
+    margin-top:20px;
+  }
+  
+  p{
+    margin-top:-10px;
+  }
+  
+  #head{
+    background-color:#d3ffff;
+    height:80px;
+    width:auto;
+  }
+  
+  #img-div{
+    background-color:#45fff2;
+    height:450px;
+  }
+  
+  #img-caption{
+    margin-top:10px;
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center;
+    font-family:sans-serif;
+  }
+  
+  #sub{
+    background-color:#008080;
+    height:auto;
+    width:auto;
+  }
