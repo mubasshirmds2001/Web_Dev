@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#Doc{
+    text-align: center;
+    font-size: 40px;
+    color: aqua;
+    font-family: sans-serif;
+    padding-top: 20px;
+    margin-bottom: 30px;
+}
+.heading{
+    background-color: darkblue;
+    width: auto;
+    height: 160px;
+}
+
+.nav-link{
+    color: aliceblue;
+    display: inline;
+    margin-top: 20px;
+    text-decoration: none;
+    font-family: sans-serif;
+    
+}
+
+li{
+    display: inline;
+    padding: 20px;
+    margin:auto;
+}
+
