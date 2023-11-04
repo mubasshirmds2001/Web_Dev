@@ -3,32 +3,88 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    background-color: lightblue;
+}
+
+.title{
+    background-color: rgb(0, 0, 66);
+    width: 100%;
+    height: 150px;
+}
+
 #Doc{
     text-align: center;
-    font-size: 40px;
-    color: aqua;
+    font-size: 80px;
+    color: #ffff00;
     font-family: sans-serif;
     padding-top: 20px;
-    margin-bottom: 30px;
+    font-weight: bold;
+    margin-bottom: 30px;  
 }
-.heading{
-    background-color: darkblue;
-    width: auto;
-    height: 160px;
+
+#navbar > ul{
+    list-style-type: none;
+    text-align: center;
+    background-color: rgb(0, 27, 27);
+    margin-top: 10px;
+    width: 100%;
+    height:100%;
+    padding: 10px;
+    font-weight: bold;
 }
 
 .nav-link{
-    color: aliceblue;
-    display: inline;
-    margin-top: 20px;
+    padding: 20px;
     text-decoration: none;
+    color: hotpink;
+    font-size: 20px;
     font-family: sans-serif;
-    
 }
 
 li{
     display: inline;
-    padding: 20px;
-    margin:auto;
+    text-align: center;
+    cursor: pointer;
 }
 
+#Introduction,#Reference,#What_you_should_already_know,#Variables,#Hello_world,#JavaScript_and_Java{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    padding: 40px;
+    background-color: ivory;
+    margin-top: 20px;
+    box-shadow: 3px 3px 5px lightblue;
+}
+
+#intro,#what,#java,#hello,#variables,#reference{
+    font-size: 30px;
+    font-family: sans-serif;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+p{
+    font-size: 20px;
+    padding-left: 30px;
+    padding-top: 20px;
+    text-align: justify;
+}
+
+.in{
+    font-size: 20px;
+    padding-left: 50px;
+    padding-top: 20px;
+    list-style-type: circle;
+    text-align: justify;
+}
+
+code{
+    padding: 20px;
+    margin-left: 20px;
+    font-size: 18px;
+}
