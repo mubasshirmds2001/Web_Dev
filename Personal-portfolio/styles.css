@@ -198,29 +198,29 @@ p {
     color: white;
 }
 
-.social{
+.social {
     text-align: center;
     font-size: 80px;
 }
 
-#copy{
-    width:auto;
+#copy {
+    width: auto;
     height: auto;
-    font-size: 30px;
+    font-size: 20px;
     background: none;
-    color:white;
+    color: white;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
 }
 
-.copyright{
+.copyright {
     width: 100%;
     height: auto;
-    background-color: rgb(51, 0, 0);
+    background-color: rgb(12, 0, 0);
     margin-left: auto;
     margin-right: auto;
-    
+    margin-top: 40px;
+    text-align: center;
+
 }
-
-
