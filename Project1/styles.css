@@ -444,12 +444,12 @@
     align-items: center;
     justify-content: center;
     top:1900px;
-    background: #FFFFFF
+    background: #f98787
 }
 
 .shape6{
     width: 1000px;
-    height: 502px;
+    height: 600px;
     flex-shrink: 0;
     position: absolute;
     top:1780px;
@@ -487,6 +487,91 @@
     top:80px;
     left: 90px;
     padding: 3px 8px ;
+}
+
+.content-section .content1 h1{
+    width: 480px;
+    color: #1C1F35;
+    font-family: Rubik;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 600;
+    text-align: left;
+    line-height: normal;
+    position: absolute;
+    top: 1890px;
+    left: 340px;
+}
+
+.content-section .content1 p{
+    width: 464px;
+    color: #666C89;
+    font-family: Krub;
+    font-size: 16px;
+    font-style: normal;
+    text-align: left;
+    font-weight: 500;
+    line-height: 151.523%; /* 24.244px */
+    position: absolute;
+    top: 1980px;
+    left: 340px;
+}
+
+.content2{
+    position: absolute;
+    top: 2150px;
+    left: 340px;
+    display: flex;
+    width: 265px;
+    align-items: center;
+    gap: 15px;
+}
+
+.content3{
+    position: absolute;
+    top: 2225px;
+    left: 340px;
+    display: flex;
+    width: 390px;
+    align-items: center;
+    gap: 15px;
+}
+
+.content2 p{
+    color: #1C1F35;
+    font-family: Rubik;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.content3 p{
+    color: #1C1F35;
+    font-family: Rubik;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.content4 img{
+    position: absolute;
+    top: 1900px;
+    left: 870px;
+    width: 320px;
+    height: 320px;
+    flex-shrink: 0;
+}
+
+.content5 img{
+    position: absolute;
+    top: 2085px;
+    left: 750px;
+    width: 260px;
+    height: auto;
+    flex-shrink: 0;
+    border: 30px solid white;
 }
 
 @media screen and (max-width: 600px) {
@@ -611,7 +696,7 @@
     }
 
     .features{
-        width: 325vw;
+        width: 324.9vw;
         height: 470px;
         background-color: #ffffff;
         margin-top: -70px;
@@ -784,7 +869,7 @@
         color: #1C1F35;
         font-family: Rubik;
         font-size: 22px;
-        width: 300px;
+        width: 270px;
         font-style: normal;
         font-weight: 400;
         line-height: normal;
@@ -824,5 +909,13 @@
     .services{
         position: relative;
         top: -30px;
+    }
+
+    .content-section{
+        width: 150vh;
+        height: 2580px;
+        position: absolute;
+        background-image: url("background-container.png");
+        background-size: cover;
     }
   }
