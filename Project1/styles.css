@@ -58,6 +58,12 @@ html body{
 }
 
 @media only screen and (max-width: 600px) {
+    
+    body{
+        width: 100%;
+        height: 100%;
+    }
+
     .Header{
         width: 100%;
         height: 120px;
@@ -71,11 +77,12 @@ html body{
     }
 
     .address-bar{
+        width: 100%;
         display: flex;
         flex-direction: row;
         justify-content: center;
         margin-top: 20px;
-        margin-left: 20px;
+        margin-left: 0px;
     }
 
     .email,.time,.call{
@@ -84,8 +91,13 @@ html body{
     }
 
     .header-time p,.header-email p,.header-call p{
-        font-size: 9px;
-        padding: 5px;
+        font-size: 8px;
+        padding: 2px;
+    }
+
+    .header-call{
+        width: 90px;
+        margin-left: -10px;
     }
   }
 
@@ -270,7 +282,9 @@ html body{
     
     .desc1{
         font-size: 10px;
-        width: 330px;
+        width: 300px;
+        display: flex;
+        flex-wrap: wrap;
         margin-left: 43px;
         margin-top: 6px;
     }
@@ -319,6 +333,7 @@ html body{
     align-items: center;
     width: auto;
     height: 4px;
+    margin-left: -65px;
 }
 
 .sub-text{
@@ -336,17 +351,18 @@ html body{
     width: 294px;
     height: 93px;
     flex-shrink: 0;
-    margin-left: 265px;
+    margin-left: 200px;
     margin-top: 20px;
 }
 
-.services .service1{
-    display: flex;
-    margin-left: 590px;
-    margin-top: -160px;
+.services{
+    position: relative;
+    top: -150px;
+    left: 500px;
+    width: fit-content;
 }
 
-.services .service1 p{
+.services .service1 .head-text,.services .service2 .head-text,.services .service3 .head-text,.services .service4 .head-text{
     color: #1C1F35;
     font-family: Rubik;
     font-size: 22px;
@@ -356,155 +372,89 @@ html body{
     padding-left: 15px;
 }
 
-.services .service1 .shape{
+.services .service1 .text-content,.services .service2 .text-content,.services .service3 .text-content,.services .service4 .text-content{
+    display: block;
+}
+
+.services .service1 .shape,.services .service2 .shape,.services .service3 .shape,.services .service4 .shape{
     width: 1px;
     height: 105px;
     background-color: #D8D8D8;
-}
-
-.services .service1 .para{
-    color: #666C89;
-    font-family: Krub;
-    font-size: 16px;
-    width: 270px;
-    font-style: normal;
-    font-weight: 500;
-    margin-left: -250px;
-    margin-top: 35px;
-    line-height: 151.523%; /* 24.244px */
-}
-
-.services .service2{
-    display: flex;
-    margin-left: 990px;
-    margin-top: -115px;
-}
-
-.services .service2 p{
-    color: #1C1F35;
-    font-family: Rubik;
-    font-size: 22px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    padding-left: 15px;
-}
-
-.services .service2 .shape{
-    width: 1px;
-    height: 105px;
-    background-color: #D8D8D8;
-}
-
-.services .service2 .para{
-    color: #666C89;
-    font-family: Krub;
-    font-size: 16px;
-    width: 270px;
-    font-style: normal;
-    font-weight: 500;
-    margin-left: -238px;
-    margin-top: 35px;
-    line-height: 151.523%; /* 24.244px */
-}
-
-.services .service3{
-    display: flex;
-    margin-left: 590px;
-    margin-top: -120px;
-}
-
-.services .service3 p{
-    color: #1C1F35;
-    font-family: Rubik;
-    font-size: 22px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    padding-left: 15px;
 }
 
 .services .service3 .shape{
-    width: 1px;
-    height: 105px;
-    background-color: #D8D8D8;
-    margin-left: 9px;
+    margin-left: 8px;
 }
 
-.services .service3 .para{
+.services .service1 .para,.services .service2 .para,.services .service3 .para,.services .service4 .para{
     color: #666C89;
     font-family: Krub;
     font-size: 16px;
     width: 270px;
     font-style: normal;
     font-weight: 500;
-    margin-left: -204px;
-    margin-top: 35px;
     line-height: 151.523%; /* 24.244px */
-}
-
-.services .service4{
-    display: flex;
-    margin-left: 990px;
-    margin-top: -115px;
-}
-
-.services .service4 p{
-    color: #1C1F35;
-    font-family: Rubik;
-    font-size: 22px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
     padding-left: 15px;
+    padding-top: 10px;
 }
 
-.services .service4 .shape{
-    width: 1px;
-    height: 105px;
-    background-color: #D8D8D8;
+.services .service1,.services .service2{
+    display: inline-flex;
+    margin-left: 50px;
+    flex-wrap: wrap;
 }
-
-.services .service4 .para{
-    color: #666C89;
-    font-family: Krub;
-    font-size: 16px;
-    width: 270px;
-    font-style: normal;
-    font-weight: 500;
-    margin-left: -259px;
-    margin-top: 35px;
-    line-height: 151.523%; /* 24.244px */
-}
-
-.services34{
-    display: inline-block;
-    margin-top: 150px;
+.services .service3,.services .service4{
+    display: inline-flex;
+    margin-left: 50px;
+    margin-top: 20px;
+    flex-wrap: wrap;
 }
 
 @media only screen and (max-width: 600px) {
     .sub-text{
-        margin-left: -190px;
+        margin-left: -150px;
     }
 
     .services{
-        display: inline-block;
-        margin-top: 200px;
+        display: block;
+        width: 100%;
+        justify-content: center;
         margin-left: -520px;
+        margin-top: 200px;
     }
 
-    .services .service2{
-        margin-top: 50px;
-        margin-left: 597px;
+    .services .service2,.services .service4{
+        margin-left: 50px;
+        margin-top: 30px;
+        width: fit-content;
     }
 
-    .services .service4{
-        margin-top: 50px;
-        margin-left: 597px;
+    .services .service1,.services .service3{
+        margin-top: 30px;
+        width: fit-content;
     }
 
-    .services34{
-        margin-top: 160px;
+    .services .service3{
+        margin-left: 42px;
+    }
+
+    .service1 img,.service2 img,.service3 img,.service4 img{
+        width: 64px;
+        height: 86px;
+    }
+
+    .service1 .shape,.service2 .shape,.service3 .shape,.service4 .shape{
+        width: 1px;
+        height: 100px;
+    }
+
+    .services .service1 .para,.services .service2 .para,.services .service3 .para,.services .service4 .para{
+        font-size: 11px;
+        width: 250px;
+    }
+
+    .services .service1 .head-text,.services .service2 .head-text,.services .service3 .head-text,.services .service4 .head-text{
+        font-size: 16px;
     }
 
 }
@@ -668,6 +618,7 @@ html body{
 .counter{
     display: inline-flex;
     justify-content: center;
+    flex-wrap: wrap;
     align-items: center;
     border-bottom: 1px solid #D4D4D4;
     border-top: 1px solid #D4D4D4;
@@ -730,6 +681,7 @@ html body{
     .content-section{
         width: 100%;
         height: 100%;
+        text-align: center;
     }
 
     .shape4{
@@ -737,17 +689,26 @@ html body{
     }
 
     .shape6{
-        width: 400px;
-        height: 600px;
-        margin-left: 50px;
+        width: 90%;
+        height: 1000px;
+        margin-left: 0px;
         background-color: #ffffff;
-        display: inline-block;
-        margin-top: 300px;
+        display: inline-flex;
+        margin-top: 400px;                              
     }
 
     .shape7{
         margin-left: 50px;
         margin-top: 50px;
+    }
+
+    .content123{
+        width: 100%;
+        display: block;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-left: -60px;
+        margin-top: 80px;
     }
     
     .bg1{
@@ -766,30 +727,34 @@ html body{
     }
     
     .content-section .content1 h1{
-        width: 400px;
-        font-size: 25px;
-        margin-left: 25px;
+        width: 300px;
+        display: flex;
+        flex-wrap: wrap;
+        font-size: 20px;
+        margin-left: 45px;
         margin-top: 30px;
     }
     
     .content-section .content1 p{
-        width: 350px;
+        width: 300px;
         font-size: 13px;
-        margin-left: 25px;
+        margin-left: 45px;
         margin-top: 25px;
     }
     
     .content2{
+        display: flex;
         margin-left: 30px;
-        margin-top: 25px;
+        margin-top: 10px;
         width: 265px;
         gap: 10px;
     }
     
     .content3{
+        display: flex;
+        width: 100%;
         margin-left: 30px;
-        margin-top: 25px;
-        width: 390px;
+        margin-top: 10px;
         gap: 10px;
     }
     
@@ -798,18 +763,25 @@ html body{
     }
     
     .content4{
-        margin-left: -10px;
-        margin-top: -30px;
+        margin-left: -370px;
         width: 200px;
         height: 170px;
     }
 
     .content5{
-        margin-left: 110px;
-        margin-top: 270px;
-        display: block;
         width: 300px;
         height: 270px;
+        margin-left: -270px;
+        margin-top: 280px;
+    }
+
+    .content45{
+        width: 100%;
+        height: 100%;
+        display: block;
+        margin-top: 380px;
+        justify-content: center;
+        align-items: center;
     }
 
     .counter1,.counter2{
@@ -819,13 +791,14 @@ html body{
     }
     
     .counter{
+        width: 100%;
         display: inline-flex;
         justify-content: center;
         align-items: center;
         border-bottom: 1px solid #D4D4D4;
         border-top: 1px solid #D4D4D4;
         width: 400px;
-        margin-left: 50px;
+        margin-left: 0px;
     }
     
     .counter1{
@@ -873,7 +846,10 @@ html body{
     }
 }
 
+/* Transport */
+
 .transport-head {
+    width: 100%;
     color: #1C1F35;
     text-align: center;
     font-family: Rubik;
@@ -979,4 +955,10 @@ html body{
     font-style: normal;
     font-weight: 500;
     line-height: 135.023%; /* 21.604px */
+}
+
+@media only screen and (max-width: 600px) {
+    .transport{
+        width: 100%;
+    }
 }
