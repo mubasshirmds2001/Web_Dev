@@ -881,7 +881,7 @@ html body{
     font-style: normal;
     font-weight: 600;
     line-height: normal;
-    padding-top: 100px;
+    padding-top: 50px;
 }
 
 .transport{
@@ -892,22 +892,34 @@ html body{
 }
 
 .tr-images{
-    margin-top: 50px;
+    margin-top: 30px;
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .tr-img1 img,.tr-img2 img,.tr-img3 img,.tr-img4 img,.tr-img5 img{
     width: 280px;
     height: 340px;
     padding: 20px;
+    position: relative;
+    text-align: center;
+}
+
+.tr-back{
+    width: 240px;
+    height: 340px;
+    position: relative;
+    background: url("Transport/Background.png");
+    margin-top: -363px;
+    margin-left: 20px;
 }
 
 .tr-shape{
     width: 100%;
     height: 350px;
     margin-top: -150px;
+    text-align: center;
     background:linear-gradient(95deg, #FFB629 -1.19%, #FFDA56 57.78%, #FFD7A6 115.08%);;
 }
 
@@ -929,27 +941,42 @@ html body{
     line-height: 151.523%;
 }
 
-.tr-text1{
-    margin-top: 270px;
-    margin-left: -300px;
+.text1 {
+    color: #FFF;
+    font-family: Rubik;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    position: relative;
+    top: -55px;
+    left:30px;
+}
+  
+.text2 {
+    color: #FFB629;
+    font-family: Krub;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 151.523%; /* 24.244px */
+    position: relative;
+    top: -55px;
+    left:30px;
 }
 
-.tr-text2{
-    margin-top: 270px;
-    margin-left: -300px;
-}
-
-.tr-text3{
-    margin-top: 270px;
-    margin-left: -300px;
-}
-
-.tr-text4{
-    margin-top: 270px;
-    margin-left: -320px;
-}
-
-.tr-text5{
-    margin-top: 270px;
-    margin-left: -300px;
+.more{
+    width: 194px;
+    height: 60px;
+    flex-shrink: 0;
+    background: url("Transport/btn-background.svg");
+    background-size: cover;
+    margin-top: 160px;
+    border: none;
+    color: #FFF;
+    font-family: Krub;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 135.023%; /* 21.604px */
 }
