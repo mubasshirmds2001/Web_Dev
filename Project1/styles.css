@@ -1421,3 +1421,149 @@ html body{
         margin-top: 5%;
     }
 }
+
+/* Expert-Team */
+
+.Expert-Team{
+    width: 100%;
+    height: 600px;
+    background: #FFF;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+.Expert-top .title-ex{
+    color: #1C1F35;
+    font-family: Rubik;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background-color: rgba(232, 232, 232, 0.50);
+    height: 22px;
+    display: inline-flex;
+    width: 130px;
+    padding: 3px 8px ;
+    justify-content: center;
+}
+
+.Expert-Team .content1 h1{
+    width: 100%;
+    color: #1C1F35;
+    font-family: Rubik;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    text-align: center;
+    line-height: normal;
+    margin-left: 0px;
+    margin-top: 10px;
+}
+
+.Expert-Team .content1{
+    width: 100%;
+}
+
+.Expert-top{
+    width: 100%;
+    display: block;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+.Expert-top .shape-yellow{
+    margin-left: 45%;
+}
+
+.img1 img{
+    width: 280px;
+    height: 340px;
+    flex-shrink: 0;
+}
+
+.tm-desc{
+    width: 280px;
+    height: 100px;
+    background-color: #1C1F35;
+    margin-top: -30px;
+    flex-shrink: 0;
+}
+
+.tm-name{
+    padding-top: 40px;
+    padding-left: 35px;
+    color: #FFF;
+    font-family: Rubik;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.tm-pos {
+    padding-left: 35px;
+    color: #FFF;
+    font-family: Krub;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 151.523%;
+    /* 24.244px */
+}
+
+.social-shape {
+    height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: -30px;
+    flex-wrap: wrap;
+    background: linear-gradient(94deg, #FFB629 -1.21%, #FFDA56 58.66%, #FFD7A6 116.84%);
+}
+
+.tm-img1 .social-shape{
+    width: 100px;
+}
+
+.tm-img2 .social-shape{
+    width: 150px;
+}
+
+.tm-img3 .social-shape{
+    width: 80px;
+}
+
+.social{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.social .fab{
+    font-size: 20px;
+    color: #1C1F35;
+}
+
+.tm-img1,.tm-img2,.tm-img3{
+    padding-top: 40px;
+}
+
+.team-imgs{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+@media only screen and (max-width: 600px) {
+    .Expert-Team{
+        width: 100%;
+        display: block;
+        margin-top: 80vh;
+        justify-content: center;
+    }
+}
