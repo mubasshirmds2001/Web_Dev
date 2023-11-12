@@ -714,7 +714,7 @@ html body{
     .bg1{
         width: 100%;
         height: 500px;
-        background-image: url("background-container.png");
+        background-image: url("Banner/background-container.png");
         background-size: cover;
         background-position: center;
         position: relative;
