@@ -1032,7 +1032,10 @@ html body{
 
 .testimonial{
     width: 100%;
-    height: 500px;
+    height: 550px;
+    display: block;
+    justify-content: center;
+    align-items: center;
 }
 
 .tm-box .tm1 .box .top .details{
@@ -1203,5 +1206,218 @@ html body{
         justify-content: left;
         margin-left: 10px;
         margin-top: 30px;
+    }
+}
+
+/* why choose us */
+
+.choose-us{
+    width: 100%;
+    height: 650px;
+    flex-shrink: 0;
+    background-color: #ffffff;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.block1{
+    width: 50%;
+    height: 650px;
+    background: #091242;
+}
+
+.block2{
+    width: 50%;
+    height: 650px;
+    background: #F4F4F4;
+}
+
+.plane-img, .plane-img img{
+    width: 729px;
+    height: 500px;
+    margin-left: 8%;
+    margin-top: 5%;
+    position: relative;
+}
+
+.shape-plane-text{
+    width: 370px;
+    height: 120px;
+    flex-shrink: 0;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 33%;
+    margin-top: -13.5%;
+    position: relative;
+    background: linear-gradient(94deg, #FFB629 -1.21%, #FFDA56 58.66%, #FFD7A6 116.84%);
+}
+
+.shape-plane-text img{
+    padding-left: 20px;
+}
+
+.text-plane{
+    width: 250px;
+    height: 65px;
+    flex-shrink: 0;
+    color: #1C1F35;
+    font-family: Rubik;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-left: 10px;
+}
+
+.shape-yellow{
+    width: 4px;
+    height: 23px;
+    background: linear-gradient(94deg, #FFB629 -1.21%, #FFDA56 58.66%, #FFD7A6 116.84%);;
+}
+
+.title-bl2{
+    color: #1C1F35;
+    font-family: Rubik;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background-color: rgba(232, 232, 232, 0.50);
+    height: 22px;
+    display: inline-flex;
+    width: 100px;
+    padding: 3px 8px ;
+}
+
+.choose-us .content1 h1{
+    width: 350px;
+    color: #1C1F35;
+    font-family: Rubik;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    text-align: left;
+    line-height: normal;
+    margin-left: 0px;
+    margin-top: 20px;
+}
+
+.choose-us .content1 p{
+    width: 370px;
+    color: #666C89;
+    font-family: Krub;
+    font-size: 12px;
+    font-style: normal;
+    text-align: left;
+    font-weight: 500;
+    margin-left: 0px;
+    margin-top: 20px;
+}
+
+.bl2-top{
+    width: 50%;
+    height: 220px;
+    flex-shrink: 0;
+    background: url("WhyUS/Pattern.svg");
+    margin-left: 20%;
+    margin-top: 15%;
+}
+
+.bl1-bottom1{
+    display: flex;
+    width: 500px;
+    justify-content: space-evenly;
+}
+
+.b12-content2,.b12-content3{
+    display: flex;
+    align-items: center;
+    width: 300px;
+    margin-bottom: 3%;
+}
+
+.b12-content2 p,
+.b12-content3 p {
+    padding-left: 10px;
+    color: #1C1F35;
+    font-family: Rubik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.b12-bottom img{
+    width: 53px;
+    height: 53px;
+}
+
+.b12-bottom{
+    margin-left: 20%;                                                 
+}
+
+.bl2-cont{
+    width: 100%;
+    margin-left: -15px;
+    display: block;
+}
+
+@media only screen and (max-width: 600px) {
+    .choose-us{
+        width: 100%;
+        display: block;
+        margin-top: 100%;
+    }
+
+    .block2{
+        width: 100%;
+        display: inline-block;
+    }
+
+    .block1{
+        width: 100%;
+    }
+
+    .c1{
+        display: block;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .plane-img img{
+        width: 400px;
+        height: 300px;
+        display: inline-flex;
+        margin-top: 30%;
+    }
+
+    .plane-img{
+        width: 300px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .shape-plane-text{
+        margin-left: 0%;
+        margin-top: -20%;
+    }
+
+    .bl2-cont{
+        width: 100%;
+        display: block;
+    }
+
+    .bl1-bottom1{
+        width: 100%;
+        height: 100%;
+        display:block;
+    }
+
+    .bl2-top{
+        margin-left: 10%;
+        margin-top: 5%;
     }
 }
