@@ -1113,12 +1113,6 @@ html body{
     background: #091242;
 }
 
-.quote{
-    display: flex;
-    justify-content: right;
-    flex-wrap: wrap;
-}
-
 .qt-img{
     width: 53px;
     height: 53px;
