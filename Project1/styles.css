@@ -1549,6 +1549,7 @@ html body{
 
 .tm-img1,.tm-img2,.tm-img3{
     padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 .team-imgs{
@@ -1557,6 +1558,7 @@ html body{
     justify-content: center;
     flex-wrap: wrap;
     gap: 40px;
+    padding-bottom: 40px;
 }
 
 @media only screen and (max-width: 600px) {
@@ -1567,3 +1569,200 @@ html body{
         justify-content: center;
     }
 }
+
+/* contact */
+
+.contact{
+    width: 100%;
+    height: 800px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    background: #091242;
+}
+
+.title-con{
+    color: #1C1F35;
+    font-family: Rubik;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background-color: rgba(232, 232, 232, 0.50);
+    height: 22px;
+    display: inline-flex;
+    width: 60px;
+    padding: 3px 8px ;
+}
+
+.cont-con1 h1{
+    color: #FFFFFF;
+    font-family: Rubik;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    text-align: left;
+    line-height: normal;
+    margin-top: 10px;
+}
+
+.cont-con1 p{
+    width: 270px;
+    color: #FFF;
+    font-family: Krub;
+    font-size: 12px;
+    font-style: normal;
+    text-align: left;
+    line-height: normal;
+    font-weight: 200;
+    margin-left: 0px;
+    margin-top: 10px;
+}
+
+.mail-call-time{
+    display: inline-block;
+}
+
+.div-time, .div-call, .div-email{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.div-time p,.div-call p,.div-email p{
+    color: #FFFFFF;
+    font-family: 'Krub';
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    padding-left: 10px;
+}
+
+.form-div{
+    width: 700px;
+    height: auto;
+}
+
+.in-type1{
+    width: 300px;
+    height: 60px;
+    background-color: #091242;
+    border: 1px solid #4E5683;
+    padding-left: 30px;
+    color: #FFF;
+    font-family: League Spartan;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+#msg{
+    width: 623px;
+    height: 100px;
+    background-color: #091242;
+    border: 1px solid #4E5683;
+    padding-left: 30px;
+    padding-top: 20px;
+    color: #FFF;
+    font-family: League Spartan;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+::placeholder{
+    color: #FFF;
+}
+
+.submit-msg{
+    width: 170px;
+    height: 50px;
+    flex-shrink: 0;
+    background: linear-gradient(94deg, #FFB629 -1.21%, #FFDA56 58.66%, #FFD7A6 116.84%);
+    background-size: cover;
+    border: none;
+    color: #23212A;
+    font-family: Krub;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 800;
+}
+
+.form-div2,.form-div3,.form-div4{
+    margin-top: 25px;
+}
+
+.form-div1 input[type="email"],.form-div2 input[type="text"]{
+    margin-left: 20px;
+}
+
+.form-div{
+    display: block;
+    margin-left: 80px;
+    margin-top: 70px;
+}
+
+.div-contact-content{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 80px;
+    margin-left: 40px;
+}
+
+.client-logo {
+    display: flex;
+    justify-content: center;
+  }
+
+  .div-client-logo1,.div-client-logo2,.div-client-logo3,.div-client-logo4 {
+    position: relative;
+    overflow: hidden;
+    margin-top: 50px;
+  }
+
+  .cl-img, .c2-img, .c3-img, .c4-img {
+    display: block;
+    width: 280px;
+    height: 200px;
+    box-shadow: #091242;
+  }
+
+  .cl-shape, .c2-shape, .c3-shape, .c4-shape {
+    position: absolute;
+    top: 0px;
+    left: 0;
+    z-index: 1;
+    width: 280px;
+    height: 200px;
+    background: linear-gradient(0deg, #111C54 0%, rgba(17, 28, 84, 0.00) 98.72%);
+  }
+
+  .cl-logo, .c2-logo, .c3-logo, .c4-logo {
+    z-index: 1;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 75px;
+    left: 40px;
+  }
+
+  .c2-logo{
+    position: absolute;
+    top: 80px;
+    left: 100px;
+  }
+
+  .c3-logo{
+    position: absolute;
+    top: 80px;
+    left: 50px;
+  }
+
+  .c4-logo{
+    position: absolute;
+    top: 70px;
+    left: 55px;
+  }
