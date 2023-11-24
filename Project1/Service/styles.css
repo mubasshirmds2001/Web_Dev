@@ -119,7 +119,7 @@ html body {
     flex-shrink: 0;
     background-image: url("/Service/Photo.png");
     background-size: cover;
-    background-position: left;
+    background-position: 40%;
 }
 
 .navigation {
